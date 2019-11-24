@@ -1,0 +1,40 @@
+# Convert Decimal to binary
+# in this case we will be use  bin()  function for decimal to binary converction
+a = 100
+vi = bin(a)
+print("Decimal to binary",vi)
+
+# int function is use for decimal to binary conversion
+    # the int function takes as second argument the base of the number to be converted which is 2 in case of binary
+# numbers
+# Forbinary Decimal to binary conversin
+print(int(vi,2))
+
+
+
+# Octal conversion :-
+#     in python you can use the oct() function to convert from a decimal value to it's octal value
+o = 79
+# Base 8 (octal)
+oct_a = oct(o)
+print("Octal",oct_a)
+# you can also use the int() function along with the correct base which is 8 for the octal number system
+print(int(oct_a , 8))
+
+
+
+# Type conversion to hexadecimal
+# hexadecimal is base 16 number system.
+# Hexadecimal has six additional symbols that is used beyond the number found in the decimal number system
+# Ex:-  0,1,2,3,4,5,6,7,8,9,A,B,C,D,E and F
+
+# in python you can use the hex() , function to convert from a decimal value to it's corresponding hexadecimal value.
+a = 79
+# Base 16(hexadecimal)
+hex_a = hex(a)
+print("Hexadecimal",hex_a)
+# the int function with base 16 for the hexadecimal number system
+print(int(hex_a,16))
+
+input()
+
